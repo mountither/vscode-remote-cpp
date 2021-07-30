@@ -1,0 +1,34 @@
+{
+    "env": {
+        "myDefaultIncludePath": ["${workspaceFolder}/**"],
+        "myCompilerPath": "/usr/bin/g++"
+    },
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": ["${myDefaultIncludePath}",
+               "/usr/include/x86_64-linux-gnu/c++/8",
+               "/usr/include/c++/8",
+               "/usr/local/include",
+               "/usr/include/x86_64-linux-gnu",
+               "/usr/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": ["${myDefaultIncludePath}",
+                        "/usr/include/x86_64-linux-gnu/c++/8",
+                        "/usr/include/c++/8",
+                        "/usr/local/include",
+                        "/usr/include/x86_64-linux-gnu",
+                        "/usr/include"],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+              }
+        }
+    ],
+    "version": 4
+}
